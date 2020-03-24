@@ -3,6 +3,7 @@
 <img src="https://avatars.mds.yandex.net/get-bunker/56833/13634d10eba08e395b1133c6743c24517b433ecb/orig" width="650px" />
 </p>
 
+## Десктоп версия
 Чтобы добавить карту распространения коронавируса к себе на сайт, необходимо в html код страницы добавить тег:
 
 ```html
@@ -15,3 +16,10 @@
 <iframe src="https://yandex.ru/maps/covid19?embed=covid-map" width="800px" height="500px"></iframe>
 ```
 <img src="https://avatars.mds.yandex.net/get-bunker/49769/e60f352964bc59a4a0b95005104b16fbdf5eb23a/orig" width="300px" />
+
+## Мобильная версия
+
+Для добавления карты на мобильную версию сайта, в теге iframe необходимо использовать ссылку с параметром `embed=covid-map`:
+```html
+<iframe src="https://yandex.ru/maps/covid19?embed=covid-map" width="500px" height="450px"></iframe>
+```
